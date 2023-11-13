@@ -68,5 +68,6 @@ for i in range(epoc):
         if i % 10 == 0:
           torch.save(shuran.state_dict(), "shuran_{}.pth".format(i))
           print("模型已保存了")
+          print("对外部的改变")
 
 writer.close()
