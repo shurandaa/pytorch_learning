@@ -67,6 +67,6 @@ for i in range(epoc):
         total_test_step = total_test_step + 1
         if i % 10 == 0:
           torch.save(shuran.state_dict(), "shuran_{}.pth".format(i))
-          print("模型已保存")
+          print("模型已保存了")
 
 writer.close()
